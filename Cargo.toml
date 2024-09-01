@@ -1,0 +1,11 @@
+[package]
+name = "opcua-simple-server"
+version = "0.13.0" # OPCUARustVersion
+authors = ["Adam Lock <locka99@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+chrono = "0.4"
+log = "0.4"
+opcua = { version = "0.12.0", features = ["server", "console-logging"] }
+
